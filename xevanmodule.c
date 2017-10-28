@@ -51,7 +51,7 @@ PyMODINIT_FUNC PyInit_xevan_hash(void) {
 
 #else
 
-PyMODINIT_FUNC initx11_hash(void) {
+PyMODINIT_FUNC initxevan_hash(void) {
     (void) Py_InitModule("xevan_hash", xevanMethods);
 }
 #endif
